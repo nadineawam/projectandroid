@@ -2,70 +2,76 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/whatsapp_image_2025_11_09___15_06_27_837b17d8"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        android:id="@+id/imageView4"
+        android:layout_width="552dp"
+        android:layout_height="1008dp"
+        android:contentDescription="@string/todo1"
+        app:srcCompat="@drawable/t_l_chargement__4__jpeg"
+        tools:layout_editor_absoluteX="-71dp"
+        tools:layout_editor_absoluteY="-6dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="202dp"
-        android:layout_height="74dp"
-        android:text=" Explore the"
+        android:layout_width="274dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="140dp"
+        android:text="@string/explore_the"
         android:textColor="#F2F0F0"
-        android:textSize="34sp"
+        android:textSize="48sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.569"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.129" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="106dp"
         android:layout_height="59dp"
-        android:text="earth"
-        android:textColor="#F0CA46"
+        android:text="@string/earth"
+        android:textColor="#DB8E15"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.311"
+        app:layout_constraintHorizontal_bias="0.34"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.196" />
+        app:layout_constraintVertical_bias="0.285" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="92dp"
-        android:text="with us "
+        android:text="@string/with_us"
         android:textColor="#FFFFFF"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/textView2"
-        tools:layout_editor_absoluteY="132dp" />
-
+        tools:layout_editor_absoluteY="192dp"
+        tools:ignore="MissingConstraints" />
     <Button
         android:id="@+id/button"
-        android:layout_width="93dp"
-        android:layout_height="56dp"
+        android:layout_width="129dp"
+        android:layout_height="42dp"
         android:backgroundTint="#74FFFFFF"
         android:text="Next"
         android:textColor="#000000"
         android:textSize="16sp"
+        app:iconGravity="start|textStart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.627"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.902" />
+        app:layout_constraintVertical_bias="0.866" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

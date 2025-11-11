@@ -18,7 +18,7 @@ public class MainActivity3 extends AppCompatActivity {
         btnStart.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // الانتقال إلى شاشة تسجيل الدخول
+
                 Intent intent = new Intent(MainActivity3.this, LoginActivity.class);
                 startActivity(intent);
                 finish();

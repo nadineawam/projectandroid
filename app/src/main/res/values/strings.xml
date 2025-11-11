@@ -1,4 +1,15 @@
 <resources>
     <string name="app_name">exploremate</string>
+    <string name="next">Next</string>
+    <string name="with_us">with us</string>
+    <string name="earth">earth</string>
+    <string name="explore_the">Explore the</string>
+    <string name="todo">TODO</string>
+    <string name="vacation">Vacation!</string>
+    <string name="todo1">TODO</string>
+    <string name="let_s_start_your">Let\'s start your</string>
+    <string name="let_s_enjoy_n_your_vacation">Let\'s enjoy\n your vacation</string>
+    <string name="sign_in">Sign in</string>
+    <string name="log_in">Log in</string>
 
 </resources>

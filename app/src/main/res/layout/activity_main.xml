@@ -8,44 +8,46 @@
     tools:context=".MainActivity" >
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/whatsapp_image_2025_11_09___15_06_27_837b17d8"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        android:id="@+id/imageView4"
+        android:layout_width="552dp"
+        android:layout_height="1008dp"
+        android:contentDescription="@string/todo1"
+        app:srcCompat="@drawable/t_l_chargement__4__jpeg"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-71dp"
+        tools:layout_editor_absoluteY="-5dp" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="258dp"
-        android:layout_height="149dp"
-        android:text="     Let's start
-         your "
+        android:layout_width="322dp"
+        android:layout_height="76dp"
+        android:text="@string/let_s_start_your"
         android:textColor="#FFFFFF"
-        android:textSize="34sp"
+        android:textSize="48sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.647"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.125" />
+        app:layout_constraintVertical_bias="0.261" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="168dp"
         android:layout_height="81dp"
-        android:layout_marginStart="176dp"
-        android:text="Vacation!"
-        android:textColor="#F0CA46"
+        android:layout_marginStart="120dp"
+        android:text="@string/vacation"
+        android:textColor="#DB8E15"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="114dp" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="228dp" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="93dp"
+        android:layout_width="152dp"
         android:layout_height="56dp"
         android:backgroundTint="#74FFFFFF"
         android:text="Next"
@@ -54,7 +56,9 @@
         app:iconGravity="start|textStart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.907" />
+        app:layout_constraintVertical_bias="0.857" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
