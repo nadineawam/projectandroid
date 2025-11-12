@@ -19,7 +19,7 @@
         android:id="@+id/textView6"
         android:layout_width="340dp"
         android:layout_height="132dp"
-        android:text="     let's enjoy \n your vacation"
+        android:text="     let's enjoy \n  the vacation"
         android:textColor="#FBFBFB"
         android:textSize="48sp"
         android:textStyle="bold"
